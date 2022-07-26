@@ -1,0 +1,24 @@
+.itemDetailBox {
+    border: 2px solid rgb(197, 197, 197);
+    border-radius: .3rem;
+    padding: 1em;
+}
+
+.itemDetailImage {
+    max-width: 20rem;
+    transition: all ease-in-out 0.3s;
+}
+
+.itemDetailImage:hover {
+    transform: scale(1.05);
+}
+
+.itemDetailTitle {
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+}
+
+.itemDetailPrice {
+    font-size: 1.6rem;
+    font-weight: bold;
+}
